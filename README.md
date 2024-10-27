@@ -103,3 +103,6 @@ Penjelasan :
  - Objek segitiga dari kelas Segitiga dibuat dengan alas 5 dan tinggi 10.
  - Objek persegi dari kelas Persegi dibuat dengan panjang sisi 4.
  - Program mencetak hasil luas dan keliling dari setiap bentuk (lingkaran, segitiga, dan persegi) dengan memanggil metode luas() dan keliling() dari masing-masing objek.
+
+Output :
+![ss2 (1)](https://github.com/user-attachments/assets/83f4da10-341e-4c0f-916a-c9faa2ddfd02)
