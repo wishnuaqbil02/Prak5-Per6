@@ -37,6 +37,7 @@ Penjelasan :
 - Method keliling(): Menghitung keliling lingkaran menggunakan rumus 2 × π × r.
 
 - • Class Segitiga
+  
 class Segitiga extends BangunDatar {
     int alas, tinggi;
 
@@ -53,13 +54,16 @@ class Segitiga extends BangunDatar {
         return 3 * alas;
     }
 }
+
 Penjelasan :
 - Kelas Segitiga adalah turunan dari BangunDatar.
 - Variabel alas dan tinggi mewakili alas dan tinggi segitiga.
 - Constructor: Segitiga(int alas, int tinggi) menginisialisasi alas dan tinggi.
 - Method luas(): Menghitung luas segitiga dengan rumus 1 per 2 × alas × tinggi.
 - Method keliling(): Menghitung keliling segitiga. Dalam contoh ini, diasumsikan segitiga sama sisi sehingga kelilingnya adalah 3 × alas.
+  
 • Class Persegi
+
 class Persegi extends BangunDatar {
     int sisi;
 
@@ -75,13 +79,16 @@ class Persegi extends BangunDatar {
         return 4 * sisi;
     }
 }
+
 Penjelasan :
 - Kelas Persegi adalah turunan dari BangunDatar.
 - Variabel sisi mewakili panjang sisi persegi.
 - Constructor: Persegi(int sisi) menginisialisasi panjang sisi persegi.
 - Method luas(): Menghitung luas persegi menggunakan rumus sisi × sisi.
 - Method keliling(): Menghitung keliling persegi menggunakan rumus 4 × sisi.
+  
 • Class Utama ( Main Class )
+
 public class Utama {
     public static void main(String[] args) {
         Lingkaran lingkaran = new Lingkaran(7);
@@ -96,6 +103,7 @@ public class Utama {
         System.out.println("Keliling Persegi: " + persegi.keliling());
     }
 }
+
 Penjelasan :
 - Utama adalah kelas utama (main class) yang mengandung metode main, titik awal eksekusi program.
 - Di dalam main:
